@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" verbose="1">
+    
+    <!-- Listeners -->
+    <listeners>
+        <listener class-name="listeners.MyListeners"/>
+    </listeners>
+    
+    <!-- Test Definition -->
+    <test name="Test" thread-count="5" parallel="tests">
+        <classes>
+            <!-- Replace First.YourTestClass with your actual package and class name -->
+            <class name="First.YourTestClass"/>
+            <class name="First.logintest"/>
+        </classes>
+    </test>
+    
+</suite>

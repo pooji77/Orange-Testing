@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="10" passed="10" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-12-12T14:31:24 IST" name="Suite" finished-at="2025-12-12T14:33:54 IST" duration-ms="150299">
+    <groups>
+    </groups>
+    <test started-at="2025-12-12T14:31:24 IST" name="Test" finished-at="2025-12-12T14:33:54 IST" duration-ms="150299">
+      <class name="First.logintest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:First.logintest@5c90e579]" started-at="2025-12-12T14:31:24 IST" name="setUp" finished-at="2025-12-12T14:31:35 IST" duration-ms="10971" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyLogin()[pri:0, instance:First.logintest@5c90e579]" started-at="2025-12-12T14:31:35 IST" name="verifyLogin" finished-at="2025-12-12T14:31:50 IST" duration-ms="15771" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogin -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:First.logintest@5c90e579]" started-at="2025-12-12T14:31:51 IST" name="setUp" finished-at="2025-12-12T14:31:58 IST" duration-ms="7292" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validateLoginModule()[pri:1, instance:First.logintest@5c90e579]" started-at="2025-12-12T14:31:58 IST" name="validateLoginModule" finished-at="2025-12-12T14:32:01 IST" duration-ms="3470" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLoginModule -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:First.logintest@5c90e579]" started-at="2025-12-12T14:32:01 IST" name="setUp" finished-at="2025-12-12T14:32:07 IST" duration-ms="5601" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyDashboardAfterLogin()[pri:2, instance:First.logintest@5c90e579]" started-at="2025-12-12T14:32:07 IST" name="verifyDashboardAfterLogin" finished-at="2025-12-12T14:32:22 IST" duration-ms="14847" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDashboardAfterLogin -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:First.logintest@5c90e579]" started-at="2025-12-12T14:32:22 IST" name="setUp" finished-at="2025-12-12T14:32:30 IST" duration-ms="8324" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyInvalidLoginMessage()[pri:3, instance:First.logintest@5c90e579]" started-at="2025-12-12T14:32:30 IST" name="verifyInvalidLoginMessage" finished-at="2025-12-12T14:32:40 IST" duration-ms="9844" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyInvalidLoginMessage -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:First.logintest@5c90e579]" started-at="2025-12-12T14:32:40 IST" name="setUp" finished-at="2025-12-12T14:32:48 IST" duration-ms="8071" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyInvalidUsernameOnly()[pri:4, instance:First.logintest@5c90e579]" started-at="2025-12-12T14:32:48 IST" name="verifyInvalidUsernameOnly" finished-at="2025-12-12T14:33:03 IST" duration-ms="14879" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyInvalidUsernameOnly -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:First.logintest@5c90e579]" started-at="2025-12-12T14:33:03 IST" name="setUp" finished-at="2025-12-12T14:33:10 IST" duration-ms="7196" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyInvalidPasswordOnly()[pri:5, instance:First.logintest@5c90e579]" started-at="2025-12-12T14:33:10 IST" name="verifyInvalidPasswordOnly" finished-at="2025-12-12T14:33:15 IST" duration-ms="5023" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyInvalidPasswordOnly -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:First.logintest@5c90e579]" started-at="2025-12-12T14:33:15 IST" name="setUp" finished-at="2025-12-12T14:33:21 IST" duration-ms="5801" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyEmptyFieldErrorMessages()[pri:6, instance:First.logintest@5c90e579]" started-at="2025-12-12T14:33:21 IST" name="verifyEmptyFieldErrorMessages" finished-at="2025-12-12T14:33:23 IST" duration-ms="1585" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyEmptyFieldErrorMessages -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:First.logintest@5c90e579]" started-at="2025-12-12T14:33:23 IST" name="setUp" finished-at="2025-12-12T14:33:28 IST" duration-ms="5357" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="Characterlimit()[pri:7, instance:First.logintest@5c90e579]" started-at="2025-12-12T14:33:28 IST" name="Characterlimit" finished-at="2025-12-12T14:33:32 IST" duration-ms="3601" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Characterlimit -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:First.logintest@5c90e579]" started-at="2025-12-12T14:33:32 IST" name="setUp" finished-at="2025-12-12T14:33:41 IST" duration-ms="8917" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="Casesensitive()[pri:8, instance:First.logintest@5c90e579]" started-at="2025-12-12T14:33:41 IST" name="Casesensitive" finished-at="2025-12-12T14:33:54 IST" duration-ms="13360" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Casesensitive -->
+      </class> <!-- First.logintest -->
+      <class name="First.YourTestClass">
+        <test-method signature="sampleTest()[pri:0, instance:First.YourTestClass@37271612]" started-at="2025-12-12T14:31:24 IST" name="sampleTest" finished-at="2025-12-12T14:31:24 IST" duration-ms="19" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sampleTest -->
+      </class> <!-- First.YourTestClass -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
